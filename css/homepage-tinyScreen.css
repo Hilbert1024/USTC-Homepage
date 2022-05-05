@@ -15,6 +15,6 @@ A:active { color: #FF0000; }      /* active, red */
 UL { padding-top: 1ex; padding-bottom: 1ex; }
 LI.wide { padding-top: 0.5ex; padding-bottom: 0.5ex; }
 TD { vertical-align: top; }
-TD.sidebar { background: AliceBlue; width: 0px; } sidebar, left
+TD.sidebar { background: AliceBlue; width: 100px;} sidebar, left
 TD.main { background-repeat: repeat; background-attachment: scroll; background-position: 0 0;}   /* main body, right */
 B.here { font-weight: bold; color: black; }  /* current node, black */

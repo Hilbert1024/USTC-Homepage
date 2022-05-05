@@ -22,7 +22,13 @@
 
   <body marginwidth="0" marginheight="0">
 
-    <table width="100%" cellspacing="0" cellpadding="10">
+    <script>
+		if (isPhone()) {
+			document.write("<table width=\"100%\" cellspacing=\"0\" cellpadding=\"10\" style=\"table-layout: fixed;\">")
+		} else {
+			document.write("<table width=\"100%\" cellspacing=\"0\" cellpadding=\"10\" >")
+		}
+	  </script>
       <tbody>
         <tr>
         <td class="sidebar">&nbsp;</td>
