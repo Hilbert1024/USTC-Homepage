@@ -17,10 +17,10 @@
           document.write("<link rel=\"stylesheet\" href=\"./css/homepage.css\" type=\"text/css\">")
       }
     </script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" /> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   </head>
 
-  <body marginwidth="0" marginheight="0">
+  <body marginwidth="0" marginheight="0" onLoad="layout()">
 
     <table width="100%" cellspacing="0" cellpadding="10">
       <tbody>
@@ -33,13 +33,12 @@
       <tbody>
         <td class="sidebar" valign="top">
           <table cellspacing="0" cellpadding="2">
-            <tbody>
-			<tr><td class="menu"><a href="index.html">Home</a></td></tr>
-            <tr><td class="menu"><b class="here">About Me</b></td></tr>
+            <tbody><tr><td class="menu"><b class="here">Home</b></td></tr>
+            <tr><td class="menu"><a href="">About Me</a></td></tr>
   
             <tr><td>&nbsp;</td></tr>
-            <tr><td class="menu"><a href="labs.html">Labs/Progjects</a></td></tr>
-            <tr><td class="menu"><a href="archive.html">Article archive</a></td></tr>
+            <tr><td class="menu"><a href="" target="_blank">Labs/Progjects</a></td></tr>
+            <tr><td class="menu"><a href="" target="_blank">Article archive</a></td></tr>
   
             </tbody>
           </table>
@@ -47,37 +46,36 @@
   
         <script>
           if (!isPhone()) {
-			document.write("<td class=\"main\" width=\"20px\">&nbsp;</td>")
+              document.write("<td class=\"main\">&nbsp;</td>")
           }
         </script>
   
         <td class="main" valign="top">
   
-        <h1>教育经历</h1>
-        <h3>复旦大学 (2018-2020)</h3>
-
-		<li>
-			院系：数学科学学院
+        <h1>标题h1</h1>
+        <h3>副标题h3</h3>
+        <ul>
+        <li>15-213 Pittsburgh: TR 01:25 PM – 02:45 PM, GHC 4401,
+        <a href="https://www.owlfolio.org/">Zack Weinberg</a> and
+        <a href="https://www.cs.cmu.edu/~dga">Dave Andersen</a>.
+        <a href="https://cmu.zoom.us/j/96797455920?pwd=b1RhdFNMYnRVbnJqRkJJbXEzVStyQT09">Watch lectures via Zoom</a>.
         </li>
-		<li>
-			专业：应用统计
-        </li>
-
-		<h3>中国科学技术大学 (2014-2018)</h3>
-		<li>
-			院系：数学科学学院
-        </li>
-		<li>
-			专业：概率论与数理统计
-        </li>
-
-
+        </ul>
+  
+        <p>
+          描述
+        </p>
+  
+        <p>
+        <a href="http://www.cs.cmu.edu/~213/syllabus/syllabus.pdf">链接测试</a>
+        </p>
+  
+        <p><strong>加粗:</strong> 正常 </p>
   
         <!-- 横线 -->
         <hr noshade="">
   
-		<h1>工作经历</h1>
-		<h3>TBD</h3>
+        <h3>Getting Help</h3>
       </tbody>
 
     </table>
