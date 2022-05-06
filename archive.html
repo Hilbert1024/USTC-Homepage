@@ -13,11 +13,12 @@
     <script>
       if (isPhone()) {
           document.write("<link rel=\"stylesheet\" href=\"./css/homepage-tinyScreen.css\" type=\"text/css\">")
+          document.write("<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.5, user-scalable=yes\" \/>");
       } else {
           document.write("<link rel=\"stylesheet\" href=\"./css/homepage.css\" type=\"text/css\">")
+          document.write("<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" \/>");
       }
     </script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   </head>
 
   <body marginwidth="0" marginheight="0">
@@ -44,7 +45,7 @@
             <tr><td class="menu"><a href="aboutme.html">About Me</a></td></tr>
   
             <tr><td>&nbsp;</td></tr>
-            <tr><td class="menu"><a href="labs.html">Labs/Progjects</a></td></tr>
+            <tr><td class="menu"><a href="labs.html">Labs/Projects</a></td></tr>
             <tr><td class="menu"><b class="here">Article archive</b></td></tr>
   
             </tbody>
